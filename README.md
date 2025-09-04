@@ -7,30 +7,42 @@ Text Chat: Natural language conversations with Google Gemini 2.0 Flash
 Image Analysis: Upload photos for AI-powered image recognition and analysis
 Vision AI: Camera integration for real-time photo capture and analysis
 Streaming Responses: Real-time typing indicators and response streaming
+
+
+
 🎨 Image Generation
 AI Image Creation: Generate images from text prompts using AI
 Gallery Integration: Save generated images directly to device gallery
 Image Commands: Use /img <prompt> for quick image generation
+
+
+
+
 💾 Smart History Management
 Persistent Chat History: Automatic conversation saving and loading
 Multiple Conversations: Manage multiple chat sessions
 Smart Titles: Auto-generated conversation titles from first message
 History Screen: Browse and resume previous conversations
+
+
 🎨 Modern UI/UX
 Material Design 3: Beautiful, modern interface following Material Design guidelines
 Dark/Light Themes: Toggle between dark and light modes
 Smooth Animations: Polished animations and transitions
 Custom Chat Bubbles: Elegant message bubbles with syntax highlighting
 Responsive Design: Optimized for all screen sizes
+
+
+
 📱 Cross-Platform Support
-Android - Native Android experience
-iOS - Native iOS experience
-Web - Progressive Web App
-Windows - Desktop application
-macOS - Native macOS app
-Linux - Linux desktop support
-🛠️ Technical Stack
-Framework: Flutter 3.5.4+
+Android - Native Android experience 
+iOS - Native iOS experience 
+Web - Progressive Web App 
+Windows - Desktop application 
+macOS - Native macOS app 
+Linux - Linux desktop support 
+🛠️ Technical Stack  
+Framework: Flutter 3.5.4+ 
 State Management: GetX
 AI Integration: Google Gemini API
 Storage: SharedPreferences for local data persistence
