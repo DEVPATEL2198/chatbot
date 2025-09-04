@@ -35,61 +35,110 @@ Responsive Design: Optimized for all screen sizes
 
 
 📱 Cross-Platform Support
+
 Android - Native Android experience 
+
 iOS - Native iOS experience 
+
 Web - Progressive Web App 
+
 Windows - Desktop application 
+
 macOS - Native macOS app 
+
 Linux - Linux desktop support 
+
+
 🛠️ Technical Stack  
+
 Framework: Flutter 3.5.4+ 
+
 State Management: GetX
+
 AI Integration: Google Gemini API
+
 Storage: SharedPreferences for local data persistence
+
 Image Handling: Image picker, camera integration
 Permissions: Runtime permission handling
+
 Audio: Audio playback support
 File Management: Path provider for file operations
+
 📦 Key Dependencies
+
 yaml
 dependencies:
   flutter: sdk
   get: ^4.7.2                    # State management
+  
   http: ^1.1.0                   # API calls
+  
   chat_bubbles: ^1.7.0           # Chat UI components
+  
   shared_preferences: ^2.2.2     # Local storage
+  
   flutter_highlight: ^0.7.0      # Code syntax highlighting
+  
   image_picker: ^1.0.4           # Image selection
+  
   camera: ^0.10.5+5              # Camera functionality
+  
   permission_handler: ^11.0.1    # Runtime permissions
+  
   audioplayers: ^5.2.1           # Audio playback
+  
   path_provider: ^2.1.1          # File system paths
+  
   share_plus: ^10.0.2            # Share functionality
+  
   gal: ^2.3.0                    # Gallery operations
+  
+
+  
 🚀 Getting Started
 Prerequisites
+
 Flutter SDK 3.5.4 or higher
+
 Dart SDK
+
 Google Gemini API key
+
 Installation
+
 Clone the repository
+
 bash
+
 git clone https://github.com/yourusername/chatbot.git
+
+
 cd chatbot
+
 Install dependencies
+
 bash
+
 flutter pub get
+
 Configure API Key
+
 Update 
+
 lib/constant/api_constant.dart
  with your Google Gemini API key
+ 
 dart
 class ApiConstant {
   static const String apiKey = "YOUR_GEMINI_API_KEY_HERE";
 }
+
+
 Run the app
 bash
 flutter run
+
 🎯 Usage
 Basic Chat
 Type messages in the input field and press send
@@ -102,6 +151,7 @@ Navigation
 History Button: Access previous conversations
 Theme Toggle: Switch between dark and light modes
 Menu Options: Start new conversations and access settings
+
 🏗️ Architecture
 The app follows a clean architecture pattern with:
 
@@ -111,6 +161,8 @@ Models: Data structures for conversations and messages
 Screens: UI components and user interfaces
 Widgets: Reusable UI components
 Theme: Centralized styling and theming
+
+
 🤝 Contributing
 Contributions are welcome! Please feel free to submit a Pull Request.
 
